@@ -1,0 +1,32 @@
+#编译产生的文件
+*.class
+
+#package files
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#eclips ignore
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*iws
+
+#temp file 临时文件
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system file
+.DS_Store
+Thumbs.db
